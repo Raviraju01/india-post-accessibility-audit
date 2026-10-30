@@ -1,0 +1,2 @@
+import {test,expect} from "@playwright/test"; import AxeBuilder from "@axe-core/playwright";
+test("directory has no serious or critical axe violations",async({page})=>{await page.goto("http://localhost:5173");await expect(page.getByRole("heading",{name:"Find a postal service"})).toBeVisible();const result=await new AxeBuilder({page}).analyze();expect(result.violations.filter(v=>["serious","critical"].includes(v.impact))).toEqual([]);});
