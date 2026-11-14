@@ -27,4 +27,12 @@ Five review leads are recorded in `accessibility-audit.csv`. They are derived fr
 Save evidence under `docs/evidence/` and update the CSV with exact reproduction steps, browser/device, date, result and screenshot filename.
 
 ## Limitations
-No Lighthouse score is claimed. Automated tools detect only a subset of accessibility barriers. Manual keyboard and assistive-technology testing is mandatory. Final WCAG mapping and severity must be confirmed against reproduced issues.
+Lighthouse (mobile preset, 14 Nov 2026) scored 97 out of 100 on the homepage; a desktop-preset run was blocked by the server (HTTP 403). The score is not WCAG certification. Automated tools detect only a subset of accessibility barriers. Manual keyboard and assistive-technology testing is mandatory. Final WCAG mapping and severity must be confirmed against reproduced issues.
+
+## Lighthouse result (mobile preset)
+- URL: https://www.indiapost.gov.in/
+- Run: 2026-11-14T15:49:36Z, Lighthouse accessibility category, mobile preset
+- Score: 97/100. Failed audits: label-content-name-mismatch (1 element) and target-size (7 elements), recorded as WEB-006 and WEB-007.
+- A desktop-preset run returned HTTP 403 and was discarded.
+- Report file: docs/evidence/lighthouse-indiapost.html
+- Keyboard-only and screen-reader passes: not yet completed.
