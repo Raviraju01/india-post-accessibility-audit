@@ -1,3 +1,4 @@
+import "./style.css";
 const list=document.querySelector("#service-list"), search=document.querySelector("#service-search"), count=document.querySelector("#result-count");
 let services=[];
 function render(items){list.replaceChildren();for(const s of items){const li=document.createElement("li"),h=document.createElement("h3"),p=document.createElement("p"),a=document.createElement("a");h.textContent=s.name;p.textContent=s.description;a.href=s.url;a.textContent=`Visit ${s.name}`;li.append(h,p,a);list.append(li);}count.textContent=`${items.length} services found`;}
