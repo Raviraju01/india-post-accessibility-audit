@@ -3,7 +3,7 @@
 **Target:** India Post, Department of Posts — https://www.indiapost.gov.in/  
 **Review date:** 30 October 2026
 
-> **Audit limitation:** This is a preliminary desk review. A live Lighthouse run, DOM/accessibility-tree inspection, keyboard-only pass and screen-reader pass have not been executed here. The five worksheet entries are verification leads, not confirmed WCAG failures. Do not claim a Lighthouse score or WCAG conformance until you complete `docs/test-plan.md` and replace provisional evidence with screenshots/results.
+> **Audit limitation:** This is a preliminary desk review. A Lighthouse run (mobile preset, 14 Nov 2026, score 97) is recorded in docs/evidence. DOM/accessibility-tree inspection, keyboard-only pass and screen-reader pass have not been executed here. The five worksheet entries are verification leads, not confirmed WCAG failures. Do not claim WCAG conformance until you complete `docs/test-plan.md` and replace provisional evidence with screenshots/results.
 
 ## Included
 - `docs/accessibility-audit.csv`: five records using the supplied worksheet columns.
