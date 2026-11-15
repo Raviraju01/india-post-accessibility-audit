@@ -30,3 +30,9 @@ npm run audit
 ```
 
 The local Lighthouse command audits the prototype, not India Post. To audit India Post, follow the Chrome procedure in `docs/test-plan.md`.
+
+## Results summary
+- Demo site: accessible service directory with skip link, labelled search and a live result count. The automated axe-core test passes on the demo (`npm test`).
+- Lighthouse on India Post (mobile preset, 14 Nov 2026): accessibility score 97/100. Two automated findings are recorded as WEB-006 and WEB-007 in `docs/accessibility-audit.csv`. A desktop run was blocked by the server (HTTP 403).
+- TalkBack pass on the India Post homepage: notes in `docs/evidence/talkback-notes.md`.
+- Not yet done: keyboard-only pass. Five leads (WEB-001 to WEB-005) remain unconfirmed, and no WCAG conformance is claimed.
