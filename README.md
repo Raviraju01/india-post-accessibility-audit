@@ -3,10 +3,10 @@
 **Target:** India Post, Department of Posts — https://www.indiapost.gov.in/  
 **Review date:** 30 October 2026
 
-> **Audit limitation:** This is a preliminary desk review. A Lighthouse run (mobile preset, 14 Nov 2026, score 97) is recorded in docs/evidence. DOM/accessibility-tree inspection, keyboard-only pass and screen-reader pass have not been executed here. The five worksheet entries are verification leads, not confirmed WCAG failures. Do not claim WCAG conformance until you complete `docs/test-plan.md` and replace provisional evidence with screenshots/results.
+> **Audit limitation:** This is a preliminary desk review. A Lighthouse run (mobile preset, 14 Nov 2026, score 97) is recorded in docs/evidence. DOM/accessibility-tree inspection and the keyboard-only pass have not been executed here; a partial TalkBack screen-reader pass is recorded in docs/evidence/talkback-notes.md. WEB-001 to WEB-005 are verification leads and WEB-006 and WEB-007 are automated findings; none is a confirmed WCAG failure. Do not claim WCAG conformance until you complete `docs/test-plan.md` and replace provisional evidence with screenshots/results.
 
 ## Included
-- `docs/accessibility-audit.csv`: five records using the supplied worksheet columns.
+- `docs/accessibility-audit.csv`: seven records using the supplied worksheet columns.
 - `docs/audit-report.md`: scope, findings and limitations.
 - `docs/test-plan.md`: Lighthouse, keyboard and screen-reader procedure.
 - `docs/architecture.md`: boundaries, tree and vertical slice.
